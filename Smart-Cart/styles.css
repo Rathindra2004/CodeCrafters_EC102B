@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    background-color: #F28482;
+    background-color: #25a8e0;
     font-family: Montserrat;
     display: flex;
     justify-content: center;
@@ -31,24 +31,25 @@ nav ul li{
     list-style: none;
     font-size: larger;
     font-weight: 600;
-    color: #F28482;
+    color: #157dcc;
 }
 nav a {
     float: left;
     display: block;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
 }
 
 nav a:hover {
-    background-color: #ddd;
+    background-color: #68b9f3;
     color: black;
+    border-radius: 30px;
 }
 
 .search-container {
-    background-color: #F5CAC3;
+    background-color: #80d7ef;
     float: left;
     border-radius: 50px;
 }
@@ -65,7 +66,7 @@ input[type=text] {
 }
 
 input ::placeholder{
-    color: #ddd;
+    color: #f6420c;
 }
 
 .search-container button {
@@ -86,7 +87,7 @@ input ::placeholder{
 
 .account-options a {
     padding: 14px 20px;
-    background-color: #84A59D;
+    background-color: #56b0eb;
     margin-right: 10px;
     border-radius: 30px;
     font-weight: 500;
@@ -96,7 +97,7 @@ input ::placeholder{
     margin: 0 auto;
     height: 90vh;
     width: 90%;
-    background-color: #F7EDE2;
+    background-color: #ffffff;
     border-radius: 15px;
 }
 
@@ -118,33 +119,37 @@ input ::placeholder{
     padding: 20px 30px 20px 30px;
     border: none;
     border-radius: 40px;
-    background-color: #F6BD60;
+    background-color: #60a4f6;
     font-family: Montserrat;
     font-weight: 800;
     text-transform: uppercase;
-    color: #F7EDE2;
+    color: #f58e1f;
     width: 200px;
     text-align: center;
     font-size: larger;
     cursor: pointer;
+}
+#leftportion button:hover{
+    background-color: #ff6422;
+    color: #4473f3;
 }
 
 #title{
     font-family: "Madimi One", sans-serif;
     font-size: 64px;
     font-weight: 800;
-    color: #F28482;
+    color: #ff7018;
 }
 
 #text{
     text-transform: uppercase;
     font-family: "Anton", sans-serif;
     font-size: 24px;
-    color: #F6BD60;
+    color: #f09f1c;
 }
 
 #choose-card{
-    background-color: #84a59d6b;
+    background-color: #ff801f;
     height: 70px;
     width: 200px;
     border-radius: 20px;
@@ -152,7 +157,7 @@ input ::placeholder{
 }
 
 #choose-card span{
-    color: #84A59D;
+    color: #000000;
     font-weight: 800;
 }
 
